@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng Dụng WebView</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+<div class="khung">
+    <h1 class="tieuDe">Chào Mừng Đến Với Ứng Dụng</h1>
+    <button id="hienChiTiet" class="nut">Hiển Thị Chi Tiết</button>
+    <button id="ngheNhac" class="nut">Nghe Nhạc</button>
+    <button id="xemVideo" class="nut">Xem Video</button>
+
+    <div id="chiTiet" class="an">
+        <p>Họ Tên: Nguyễn Văn A</p>
+        <p>Tuổi: 25</p>
+        <p>Nghề Nghiệp: Lập Trình Viên</p>
+    </div>
+
+    <div id="trinhPhatNhac" class="an">
+        <audio controls>
+            <source src="vidu.mp3" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ trình phát nhạc.
+        </audio>
+    </div>
+
+    <div id="trinhPhatVideo" class="an">
+        <video controls width="320" height="240">
+            <source src="vidu.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ trình phát video.
+        </video>
+    </div>
+</div>
+</body>
+</html>

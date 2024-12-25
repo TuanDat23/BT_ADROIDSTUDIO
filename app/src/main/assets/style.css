@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.khung {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+}
+
+.tieuDe {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.nut {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nut:hover {
+    background-color: #0056b3;
+}
+
+.an {
+    display: none;
+}
+
+#chiTiet, #trinhPhatNhac, #trinhPhatVideo {
+    margin-top: 20px;
+    text-align: left;
+    color: #444;
+    font-size: 16px;
+}
